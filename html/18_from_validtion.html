@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" align="center">
+        <fieldset>
+            <legend>Register Form </legend>
+            <table align="center">
+                <tr>
+                    <td><label for="">name:-</label></td>
+                    <!-- <td><input type="text" pattern="[a-zA-z0-9]+" placeholder="Enter your name" required></td> -->
+                    <td><input type="text" pattern="[a-zA-z0-9]{4,8}" placeholder="Enter your name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Phone :-</label></td>
+                    <td><input type="tel" pattern="[0-9]{10}" maxlength="10"  placeholder="Enter your Phone" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="">Email :-</label></td>
+    
+                    <!-- abc12@gmail.com -->
+                    <!-- [a-zA-z0-9.*^%]+@+[a-zA-z]+.+[a-z]{2,3}$ -->
+                    
+                    <!-- <td><input type="tel" pattern="[0-9]{10}" maxlength="10"  placeholder="Enter your Phone" required></td> -->
+                </tr>
+                <tr>
+                    <td><label for="">password :-</label></td>
+                    <td><input type="tel" pattern="[a-zA-z0-9]{8,12}"  placeholder="Enter your pssword" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="">Qutity :-</label></td>
+                    <td><input type="number" max="6" min="1"  placeholder="Enter your Phone" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit"></td>
+                </tr>
+            </table>
+            
+        </fieldset>  
+    </form>
+</body>
+</html>
