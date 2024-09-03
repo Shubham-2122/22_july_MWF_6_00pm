@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav li::first-letter {
+            background-color: red;
+        }
+
+        /* .nav li::first-line{
+            background-color: rebeccapurple;
+        } */
+        .main::first-line{
+            background-color: aqua;
+        }
+        .main::selection{
+            background-color: red;
+            color: aqua;
+        }
+        .nav li::before{
+            content: "A";
+            /* height: 200px;
+            width: 200px;
+            background-color: red; */
+        }
+        .nav li::after{
+            /* content: url("img/earth.png"); */
+            content: "B";
+        }
+    </style>
+</head>
+
+<body>
+    <!-- :: -->
+
+    <ul class="nav">
+        <li>One</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+        <li>Six</li>
+    </ul>
+
+    <div class="main">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo dolorum, necessitatibus repellendus non ut ipsam,
+        at ipsa eveniet enim laudantium fuga dolore sequi nisi consectetur corporis perspiciatis eos aperiam odio. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Labore, saepe quae! Eligendi harum natus, porro reiciendis
+        laborum, dignissimos cum exercitationem, similique aperiam quibusdam sapiente! Facilis nesciunt magnam ex
+        similique nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil cupiditate deserunt ut adipisci
+        repellat amet deleniti animi, aspernatur dolorem vero atque, neque dignissimos dolorum iure saepe modi ducimus
+        magnam rem!
+    </div>
+</body>
+
+</html>
