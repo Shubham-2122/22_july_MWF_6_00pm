@@ -6,29 +6,34 @@
     <title>Document</title>
     <style>
         .main{
-            height: 800px;
-            background-color: orange;
             display: flex;
-            /* row  */
-            flex-direction: column;
-            /* flex-direction: row-reverse; */
-            /* flex-direction: column-reverse; */
+            /* height: 1000px; */
+            /* no defult */
+            /* flex-wrap: nowrap; */
+            flex-wrap: wrap;
+            /* gap: 20px; */
+            row-gap: 10px;
+            column-gap: 20px;
+            /* flex-wrap: wrap-reverse; */
+            justify-content: center;
         }
         .box{
-            height: 100px;
-            width: 100px;
+            height: 300px;
+            width: 250px;
             border: 2px solid;
         }
     </style>
 </head>
 <body>
-    <!-- flex :- layout :- x and y :- at time row or col 1d -->
-
     <div class="main">
         <div class="box">1</div>
         <div class="box">2</div>
         <div class="box">3</div>
         <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
     </div>
 </body>
 </html>
